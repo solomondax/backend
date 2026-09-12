@@ -1,0 +1,4 @@
+// "type": "commonjs",
+
+
+mongodb+srv://solodax46_db_user:Solodax43@solodaxcluster.m6hqvem.mongodb.net/

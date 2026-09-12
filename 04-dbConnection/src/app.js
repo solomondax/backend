@@ -25,7 +25,7 @@ app.post('/create', async (req,res)=>{
   })
   // console.log(data)  
   res.send({
-    success:true,
+    success:true, 
     message:"note created scuccesfully",
     data:newNote,
   })
