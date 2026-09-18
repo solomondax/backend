@@ -52,10 +52,12 @@ const registerController = async (req,res) =>{
     accessToken
 
   })
-
 }
 
 
+
+
+// get request 
 const  getRequestFunction = async (req,res) =>{
 
   const accessToken  = req.headers.authorization.split(" ")[1]
