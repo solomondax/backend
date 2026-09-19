@@ -12,6 +12,20 @@ const tokensGenaerator = ({userId}) =>{
 
 }
 
+const verifyAccessToken = (token) =>{
+
+  let decode = jwt.verify(token,config.ACCESS_TOKEN)
+  return decode
+
+}
+
+const verifyRefreshToken = (token) =>{
+
+  let decode = jwt.verify(token,config.REFRESH_TOKEN)
+  return decode
+
+}
+
 export {
-  tokensGenaerator
+  tokensGenaerator,verifyAccessToken,verifyRefreshToken
 }
