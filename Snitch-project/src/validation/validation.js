@@ -16,7 +16,7 @@ const validation = [
     .isString()
     .withMessage("Password must be string")
     .isLength({ min: 6 })
-    .withMessage("password atlest 6 char")
+    .withMessage("password atleast 6 char")
     .trim(),
   (req, res, next) => {
     let errors = validationResult(req);
